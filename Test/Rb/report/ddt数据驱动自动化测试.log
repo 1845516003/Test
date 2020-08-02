@@ -1,0 +1,285 @@
+2020-06-29 23:14:47,054   15264     INFO test_runner.py(154) - 预计并发线程数：1
+2020-06-29 23:14:47,070   14352     INFO result.py(65) - 开始测试： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:14:52,506   14352    ERROR result.py(171) - 测试产生错误： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+Traceback (most recent call last):
+  File "C:\Users\nba\PycharmProjects\Rb\Test_Case\case.py", line 11, in setUp
+    self.driver = self.get_browser()
+  File "C:\Users\nba\PycharmProjects\Rb\Common\selenium_tools.py", line 18, in get_browser
+    self.driver = webdriver.Firefox()
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 170, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: permission denied
+
+
+2020-06-29 23:14:52,506   14352     INFO result.py(86) - 测试结束： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:14:52,506   14352     INFO result.py(87) - 耗时： 5.4362242221832275
+2020-06-29 23:14:52,522   14352     INFO result.py(65) - 开始测试： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:14:55,615   14352    ERROR result.py(171) - 测试产生错误： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+Traceback (most recent call last):
+  File "C:\Users\nba\PycharmProjects\Rb\Test_Case\case.py", line 11, in setUp
+    self.driver = self.get_browser()
+  File "C:\Users\nba\PycharmProjects\Rb\Common\selenium_tools.py", line 18, in get_browser
+    self.driver = webdriver.Firefox()
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 170, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: Unable to find a matching set of capabilities
+
+
+2020-06-29 23:14:55,615   14352     INFO result.py(86) - 测试结束： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:14:55,615   14352     INFO result.py(87) - 耗时： 3.093020439147949
+2020-06-29 23:14:55,615   14352     INFO result.py(65) - 开始测试： test_login_3___admin____admin____1__ (Test_Case.case.LoginCase)
+2020-06-29 23:15:33,447   16424     INFO test_runner.py(154) - 预计并发线程数：1
+2020-06-29 23:15:33,463   14188     INFO result.py(65) - 开始测试： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:15:41,492   14188     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:15:41,492   14188     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:15:41,820   14188     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:15:49,912   14188     INFO result.py(152) - 测试执行通过： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:15:49,912   14188     INFO result.py(86) - 测试结束： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:15:49,912   14188     INFO result.py(87) - 耗时： 16.449260234832764
+2020-06-29 23:15:49,912   14188     INFO result.py(65) - 开始测试： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:15:57,426   14188     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:15:57,426   14188     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:15:57,707   14188     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:16:03,862   14188     INFO result.py(152) - 测试执行通过： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:16:03,862   14188     INFO result.py(86) - 测试结束： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:16:03,862   14188     INFO result.py(87) - 耗时： 13.94984769821167
+2020-06-29 23:16:03,862   14188     INFO result.py(65) - 开始测试： test_login_3___admin____admin____1__ (Test_Case.case.LoginCase)
+2020-06-29 23:16:11,313   14188     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:16:11,329   14188     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:16:11,610   14188     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:16:17,921   14188     INFO result.py(152) - 测试执行通过： test_login_3___admin____admin____1__ (Test_Case.case.LoginCase)
+2020-06-29 23:16:17,921   14188     INFO result.py(86) - 测试结束： test_login_3___admin____admin____1__ (Test_Case.case.LoginCase)
+2020-06-29 23:16:17,921   14188     INFO result.py(87) - 耗时： 14.059197425842285
+2020-06-29 23:16:17,921   14188     INFO result.py(65) - 开始测试： test_usermanagement_1___1____11111____111111____2__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:16:25,388   14188     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:16:25,388   14188     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:16:25,685   14188     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:16:38,057   14188    ERROR result.py(171) - 测试产生错误： test_usermanagement_1___1____11111____111111____2__ (Test_Case.case.UsermanagementCase)
+Traceback (most recent call last):
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\nba\PycharmProjects\Rb\Test_Case\case.py", line 52, in test_usermanagement
+    self.usermanagement(username1, password1,password2)
+  File "C:\Users\nba\PycharmProjects\Rb\Business\operation_flow.py", line 14, in usermanagement
+    self.send_usermanagement()
+  File "C:\Users\nba\PycharmProjects\Rb\Page_Object\page.py", line 32, in send_usermanagement
+    self.find_element(self.usermanagement_loc).click()
+  File "C:\Users\nba\PycharmProjects\Rb\Common\selenium_tools.py", line 33, in find_element
+    return self.driver.find_element(*loc)
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: /html/body/div/div/div[3]/div/ul/li[4]/a/span
+
+
+2020-06-29 23:16:38,057   14188     INFO result.py(86) - 测试结束： test_usermanagement_1___1____11111____111111____2__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:16:38,057   14188     INFO result.py(87) - 耗时： 20.13589358329773
+2020-06-29 23:16:38,057   14188     INFO result.py(65) - 开始测试： test_usermanagement_2________111111____111111____3__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:26:25,090    1712     INFO test_runner.py(154) - 预计并发线程数：1
+2020-06-29 23:26:25,090     760     INFO result.py(65) - 开始测试： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:26:33,104     760     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:26:33,104     760     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:26:33,407     760     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:26:39,680     760     INFO result.py(152) - 测试执行通过： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:26:39,680     760     INFO result.py(86) - 测试结束： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:26:39,680     760     INFO result.py(87) - 耗时： 14.590201139450073
+2020-06-29 23:26:39,680     760     INFO result.py(65) - 开始测试： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:26:47,710     760     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:26:47,710     760     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:26:48,009     760     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:26:54,164     760     INFO result.py(152) - 测试执行通过： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:26:54,164     760     INFO result.py(86) - 测试结束： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:26:54,164     760     INFO result.py(87) - 耗时： 14.483760118484497
+2020-06-29 23:26:54,164     760     INFO result.py(65) - 开始测试： test_login_3___admin____admin____1__ (Test_Case.case.LoginCase)
+2020-06-29 23:27:01,631     760     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:27:01,647     760     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:27:01,959     760     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:27:08,083     760     INFO result.py(152) - 测试执行通过： test_login_3___admin____admin____1__ (Test_Case.case.LoginCase)
+2020-06-29 23:27:08,083     760     INFO result.py(86) - 测试结束： test_login_3___admin____admin____1__ (Test_Case.case.LoginCase)
+2020-06-29 23:27:08,083     760     INFO result.py(87) - 耗时： 13.91860318183899
+2020-06-29 23:27:08,083     760     INFO result.py(65) - 开始测试： test_usermanagement_1___1____11111____111111____2__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:27:15,565     760     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:27:15,565     760     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:27:15,846     760     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:27:23,891     760     INFO result.py(152) - 测试执行通过： test_usermanagement_1___1____11111____111111____2__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:27:23,891     760     INFO result.py(86) - 测试结束： test_usermanagement_1___1____11111____111111____2__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:27:23,891     760     INFO result.py(87) - 耗时： 15.808785676956177
+2020-06-29 23:27:23,891     760     INFO result.py(65) - 开始测试： test_usermanagement_2________111111____111111____3__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:27:31,921     760     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:27:31,921     760     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:27:32,186     760     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:27:40,247     760     INFO result.py(152) - 测试执行通过： test_usermanagement_2________111111____111111____3__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:27:40,247     760     INFO result.py(86) - 测试结束： test_usermanagement_2________111111____111111____3__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:27:40,247     760     INFO result.py(87) - 耗时： 16.35553240776062
+2020-06-29 23:27:40,247     760     INFO result.py(65) - 开始测试： test_usermanagement_3___1____111111____111111____1__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:27:48,276     760     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:27:48,292     760     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:27:48,557     760     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:27:56,399     760     INFO result.py(152) - 测试执行通过： test_usermanagement_3___1____111111____111111____1__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:27:56,399     760     INFO result.py(86) - 测试结束： test_usermanagement_3___1____111111____111111____1__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:27:56,399     760     INFO result.py(87) - 耗时： 16.15245532989502
+2020-06-29 23:27:56,399     760     INFO result.py(65) - 开始测试： test_usermanagement_4___1____111111____111111____4__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:28:04,397     760     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:28:04,413     760     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:28:04,694     760     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:28:12,317     760     INFO result.py(152) - 测试执行通过： test_usermanagement_4___1____111111____111111____4__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:28:12,317     760     INFO result.py(86) - 测试结束： test_usermanagement_4___1____111111____111111____4__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:28:12,317     760     INFO result.py(87) - 耗时： 15.918135166168213
+2020-06-29 23:28:12,317     760     INFO result.py(65) - 开始测试： test_groupmanagement_1________2__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:28:20,316     760     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:28:20,316     760     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:28:20,581     760     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:28:32,766     760    ERROR result.py(171) - 测试产生错误： test_groupmanagement_1________2__ (Test_Case.case.GroupmanagementCase)
+Traceback (most recent call last):
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\nba\PycharmProjects\Rb\Test_Case\case.py", line 91, in test_groupmanagement
+    self.groupmanagement(groupname)
+  File "C:\Users\nba\PycharmProjects\Rb\Business\operation_flow.py", line 26, in groupmanagement
+    self.send_groupmanagent()
+  File "C:\Users\nba\PycharmProjects\Rb\Page_Object\page.py", line 62, in send_groupmanagent
+    self.find_element(self.groupmanagement_loc).click()
+  File "C:\Users\nba\PycharmProjects\Rb\Common\selenium_tools.py", line 33, in find_element
+    return self.driver.find_element(*loc)
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\nba\PycharmProjects\Rb\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: /html/body/div/div/div[3]/div/ul/li[3]/a/span
+
+
+2020-06-29 23:28:32,781     760     INFO result.py(86) - 测试结束： test_groupmanagement_1________2__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:28:32,781     760     INFO result.py(87) - 耗时： 20.463664531707764
+2020-06-29 23:28:32,781     760     INFO result.py(65) - 开始测试： test_groupmanagement_2___1____1__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:28:40,764     760     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:28:40,764     760     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:28:41,076     760     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:30:55,435    8560     INFO test_runner.py(154) - 预计并发线程数：1
+2020-06-29 23:30:55,451   16952     INFO result.py(65) - 开始测试： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:31:03,464   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:31:03,480   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:31:03,761   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:31:11,666   16952     INFO result.py(152) - 测试执行通过： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:31:11,666   16952     INFO result.py(86) - 测试结束： test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:31:11,666   16952     INFO result.py(87) - 耗时： 16.214940071105957
+2020-06-29 23:31:11,666   16952     INFO result.py(65) - 开始测试： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:31:19,648   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:31:19,664   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:31:19,961   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:31:26,209   16952     INFO result.py(152) - 测试执行通过： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:31:26,209   16952     INFO result.py(86) - 测试结束： test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+2020-06-29 23:31:26,209   16952     INFO result.py(87) - 耗时： 14.543458461761475
+2020-06-29 23:31:26,209   16952     INFO result.py(65) - 开始测试： test_login_3___admin____admin____1__ (Test_Case.case.LoginCase)
+2020-06-29 23:31:33,692   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:31:33,692   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:31:33,957   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:31:40,050   16952     INFO result.py(152) - 测试执行通过： test_login_3___admin____admin____1__ (Test_Case.case.LoginCase)
+2020-06-29 23:31:40,050   16952     INFO result.py(86) - 测试结束： test_login_3___admin____admin____1__ (Test_Case.case.LoginCase)
+2020-06-29 23:31:40,050   16952     INFO result.py(87) - 耗时： 13.840497732162476
+2020-06-29 23:31:40,050   16952     INFO result.py(65) - 开始测试： test_usermanagement_1___1____11111____111111____2__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:31:47,501   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:31:47,517   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:31:47,798   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:31:55,702   16952     INFO result.py(152) - 测试执行通过： test_usermanagement_1___1____11111____111111____2__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:31:55,702   16952     INFO result.py(86) - 测试结束： test_usermanagement_1___1____11111____111111____2__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:31:55,702   16952     INFO result.py(87) - 耗时： 15.652572870254517
+2020-06-29 23:31:55,702   16952     INFO result.py(65) - 开始测试： test_usermanagement_2________111111____111111____3__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:32:03,747   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:32:03,747   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:32:04,044   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:32:11,917   16952     INFO result.py(152) - 测试执行通过： test_usermanagement_2________111111____111111____3__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:32:11,917   16952     INFO result.py(86) - 测试结束： test_usermanagement_2________111111____111111____3__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:32:11,917   16952     INFO result.py(87) - 耗时： 16.214940309524536
+2020-06-29 23:32:11,917   16952     INFO result.py(65) - 开始测试： test_usermanagement_3___1____111111____111111____1__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:32:19,884   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:32:19,915   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:32:20,196   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:32:27,898   16952     INFO result.py(152) - 测试执行通过： test_usermanagement_3___1____111111____111111____1__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:32:27,913   16952     INFO result.py(86) - 测试结束： test_usermanagement_3___1____111111____111111____1__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:32:27,913   16952     INFO result.py(87) - 耗时： 15.996241807937622
+2020-06-29 23:32:27,913   16952     INFO result.py(65) - 开始测试： test_usermanagement_4___1____111111____111111____4__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:32:35,365   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:32:35,365   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:32:35,662   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:32:43,503   16952     INFO result.py(152) - 测试执行通过： test_usermanagement_4___1____111111____111111____4__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:32:43,503   16952     INFO result.py(86) - 测试结束： test_usermanagement_4___1____111111____111111____4__ (Test_Case.case.UsermanagementCase)
+2020-06-29 23:32:43,503   16952     INFO result.py(87) - 耗时： 15.590087175369263
+2020-06-29 23:32:43,503   16952     INFO result.py(65) - 开始测试： test_groupmanagement_1________2__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:32:51,517   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:32:51,517   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:32:51,783   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:32:58,906   16952     INFO result.py(152) - 测试执行通过： test_groupmanagement_1________2__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:32:58,906   16952     INFO result.py(86) - 测试结束： test_groupmanagement_1________2__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:32:58,906   16952     INFO result.py(87) - 耗时： 15.402631044387817
+2020-06-29 23:32:58,906   16952     INFO result.py(65) - 开始测试： test_groupmanagement_2___1____1__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:33:06,920   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:33:06,920   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:33:07,201   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:33:14,324   16952     INFO result.py(152) - 测试执行通过： test_groupmanagement_2___1____1__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:33:14,324   16952     INFO result.py(86) - 测试结束： test_groupmanagement_2___1____1__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:33:14,324   16952     INFO result.py(87) - 耗时： 15.41825246810913
+2020-06-29 23:33:14,324   16952     INFO result.py(65) - 开始测试： test_groupmanagement_3___1____3__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:33:22,354   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:33:22,369   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:33:22,635   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:33:29,602   16952     INFO result.py(152) - 测试执行通过： test_groupmanagement_3___1____3__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:33:29,602   16952     INFO result.py(86) - 测试结束： test_groupmanagement_3___1____3__ (Test_Case.case.GroupmanagementCase)
+2020-06-29 23:33:29,602   16952     INFO result.py(87) - 耗时： 15.277660369873047
+2020-06-29 23:33:29,602   16952     INFO result.py(65) - 开始测试： test_filemanagement_1__________2__ (Test_Case.case.FilemanagementCase)
+2020-06-29 23:33:37,600   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:33:37,600   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:33:37,866   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:33:45,286   16952     INFO result.py(152) - 测试执行通过： test_filemanagement_1__________2__ (Test_Case.case.FilemanagementCase)
+2020-06-29 23:33:45,286   16952     INFO result.py(86) - 测试结束： test_filemanagement_1__________2__ (Test_Case.case.FilemanagementCase)
+2020-06-29 23:33:45,286   16952     INFO result.py(87) - 耗时： 15.68381667137146
+2020-06-29 23:33:45,286   16952     INFO result.py(65) - 开始测试： test_filemanagement_2___1111____1__ (Test_Case.case.FilemanagementCase)
+2020-06-29 23:33:53,300   16952     INFO selenium_tools.py(19) - 打开浏览器火狐浏览器
+2020-06-29 23:33:53,315   16952     INFO selenium_tools.py(21) - 设置隐式等待 10 S
+2020-06-29 23:33:53,596   16952     INFO selenium_tools.py(23) - 浏览器最大化
+2020-06-29 23:34:01,470   16952     INFO result.py(152) - 测试执行通过： test_filemanagement_2___1111____1__ (Test_Case.case.FilemanagementCase)
+2020-06-29 23:34:01,470   16952     INFO result.py(86) - 测试结束： test_filemanagement_2___1111____1__ (Test_Case.case.FilemanagementCase)
+2020-06-29 23:34:01,470   16952     INFO result.py(87) - 耗时： 16.183696746826172
+2020-06-29 23:34:01,470    8560     INFO test_runner.py(191) - 
+Pass	test_login_1___111111____111111____2__ (Test_Case.case.LoginCase)
+Pass	test_login_2___admin____111111____2__ (Test_Case.case.LoginCase)
+Pass	test_login_3___admin____admin____1__ (Test_Case.case.LoginCase)
+Pass	test_usermanagement_1___1____11111____111111____2__ (Test_Case.case.UsermanagementCase)
+Pass	test_usermanagement_2________111111____111111____3__ (Test_Case.case.UsermanagementCase)
+Pass	test_usermanagement_3___1____111111____111111____1__ (Test_Case.case.UsermanagementCase)
+Pass	test_usermanagement_4___1____111111____111111____4__ (Test_Case.case.UsermanagementCase)
+Pass	test_groupmanagement_1________2__ (Test_Case.case.GroupmanagementCase)
+Pass	test_groupmanagement_2___1____1__ (Test_Case.case.GroupmanagementCase)
+Pass	test_groupmanagement_3___1____3__ (Test_Case.case.GroupmanagementCase)
+Pass	test_filemanagement_1__________2__ (Test_Case.case.FilemanagementCase)
+Pass	test_filemanagement_2___1111____1__ (Test_Case.case.FilemanagementCase)
+
+2020-06-29 23:34:01,470    8560     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:03:06.643649
+共计执行用例数量：12
+执行成功用例数量：12
+执行失败用例数量：0
+跳过执行用例数量：0
+产生异常用例数量：0
+

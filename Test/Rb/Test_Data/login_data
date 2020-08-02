@@ -1,0 +1,4 @@
+username|password|asserttpye：1.登入成功 2.用户名或密码错误
+111111|111111|2
+admin|111111|2
+admin|admin|1
